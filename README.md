@@ -17,8 +17,12 @@
 2.  **(필요시)** `Don't paste code...` 와 같은 노란색 경고 메시지가 보이면, 콘솔에 `allow pasting` 을 직접 입력하고 **Enter**를 누릅니다.
 3.  아래 **복사 방지 해제 코드**를 `Console`에 붙여넣고 **Enter**를 눌러 실행합니다.
     ```javascript
-    // 이 코드를 복사하여 콘솔에 붙여넣으세요.
+    
     document.body.oncontextmenu = document.body.onselectstart = document.body.ondragstart = null;
+    allow pasting;
+    ```
+
+    ```javascript
     allow pasting;
     ```
     이제 아래 스크립트 파일들의 내용을 자유롭게 복사할 수 있습니다.
@@ -47,4 +51,5 @@
 
 -   최신 웹 브라우저 (Chrome, Edge, Firefox 등)
 -   개발자 도구(F12) 접근 가능
+
 
