@@ -15,7 +15,7 @@
 
 1.  강의 창이나 퀴즈 창에서 `F12` 키를 눌러 개발자 도구를 실행하고, `Console` 탭으로 이동합니다.
 2.  **(필요시)** `Don't paste code...` 와 같은 노란색 경고 메시지가 보이면, 콘솔에 `allow pasting` 을 직접 입력하고 **Enter**를 누릅니다.
-3.  아래 **복사 방지 해제 코드**를 `Console`에 붙여넣고 **Enter**를 눌러 실행합니다.
+3.  아래 **복사 방지 해제 코드**를 `Console`에 직접 작성하고 **Enter**를 눌러 실행합니다.
     ```javascript
     
     document.body.oncontextmenu = document.body.onselectstart = document.body.ondragstart = null;
